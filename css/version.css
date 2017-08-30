@@ -1,0 +1,190 @@
+*{
+    font-family: "微软雅黑";
+    box-sizing: border-box;
+    font-size: 14px;
+}
+#version_content{
+    width:100%;
+    height:2850px;
+    background:url("../images/version_files/ny_con_bg.jpg") no-repeat;
+    padding-top:40px;
+    padding-left:66px;
+    position: relative;
+    z-index:3;
+}
+.version_contentP i{
+    display: inline-block;
+    width:20px;
+    height:20px;
+    margin-right: 10px;
+    background:url("../images/version_files/sprite (1).png") no-repeat;
+}
+.version_contentP em{
+    font-style: normal;
+    margin: auto 10px;
+}
+.version_contentP a{
+    color: #000;
+}
+#version_contentP{
+    vertical-align: middle;
+}
+#version_contentTop{
+    width:1200px;
+    height: 40px;
+    position: relative;
+    top:30px;
+    left:-40px;
+    border-bottom: 2px solid rgba(212, 212, 212,1);
+}
+
+
+#version_content li{
+    list-style: none;
+    display: inline-block;
+}
+#version_contentTop li{
+    float: left;
+    text-align: center;
+    width:400px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.versionLi{
+    color: #3589DD;
+    border-bottom: 2px solid #3589DD;
+}
+.actLi{
+    width:383px;
+    height:300px;
+    position: absolute;
+    overflow: hidden;
+}
+#version_contentUl{
+    padding-top:60px;
+}
+#version_contentUl li{
+    width:383px;
+    height:300px;
+    background: #DAD9D9;
+    margin-right: 28px;
+    margin-bottom: 28px;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#version_contentUl li:hover .act_info{
+    transition: all 0.5s ease;
+    margin-top:-279px;
+}
+#version_contentUl li img{
+    border-radius: 5px 5px 0 0;
+}
+#version_contentUl .act{
+    padding-left:20px;
+}
+#version_contentUl p{
+    height: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block;
+}
+#version_contentUl span{
+    display: block;
+    line-height:28px;
+}
+#version_contentUl .act_span{
+    font-size: 16px;
+    color: #1E83E5;
+    font-weight: bold;
+    cursor: pointer;
+}
+#version_contentUl .act_data{
+    float: left;
+    width: 130px;
+    line-height:35px;
+    margin-right: 45px;
+    font-size: 12px;
+    color: #787878;
+    height: 35px;
+    overflow: hidden;
+}
+#version_contentUl em{
+    font-style: normal;
+    display: block;
+    width: 77px;
+    height: 40px;
+    position: absolute;
+    top: 14px;
+    right: -3px;
+    line-height:38px;
+    color: #FEFEFE;
+    text-align: center;
+    font-size: 14px;
+    z-index: 55;
+}
+#version_contentUl .actem1 {
+    background: url("../images/version_files/label_icon.png") no-repeat;
+}
+#version_contentUl .actem2{
+    background: url("../images/version_files/act_end.png") no-repeat;
+}
+#version_contentUl1{
+    float: left;
+}
+#version_contentUl2{
+    position:absolute;
+    visibility: hidden;
+}
+#version_contentUl3{
+    position:absolute;
+    visibility: hidden;
+}
+.act_info{
+    display: block;
+    width:383px;
+    height:300px;
+    text-decoration: none;
+    color: #fff;
+    background: rgba(34,59,87,0.9);
+    position: relative;
+    margin-top:23px;
+    z-index: 4;
+}
+.act_tit2{
+    position: relative;
+    top: 20px;
+    left: 35px;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.act_tx{
+    position: relative;
+    top: 40px;
+    left: 35px;
+    width: 82%;
+    height: 110px;
+    line-height: 22px;
+    overflow: hidden;
+}
+.commspr{
+    display: inline-block;
+    width:31px;
+    height:31px;
+    padding-top: 15px;
+    vertical-align: middle;
+    background: url("../images/version_files/checkdel_icon.png") no-repeat;
+}
+.act_lnk{
+    width: 100%;
+    height: 65px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 65px;
+    color: #2990F5;
+    text-align: center;
+    position: relative;
+    top:125px;
+}

@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    background: url("../images/topic_files/rp_01.jpg");
+    background-size: 100% 100%;
+}
+#index a{
+    display: block;
+    width: 135px;
+    height: 101px;
+    background: url("../images/topic_files/sp.png");
+    position: relative;
+    left: -450px;
+    top:50px;
+}
+#logo{
+    width: 759px;
+    height: 500px;
+    background: url("../images/topic_files/slogn.png") no-repeat;
+    transform:scale(2.5,2.5);
+    transition: all 0.7s ease;
+}
+#newhero{
+    width: 759px;
+    height: 600px;
+    background: url("../images/topic_files/sec2_main.png") no-repeat;
+}
+#img{
+    position: relative;
+    top:0;
+    transition: all 1s ease;
+}
+#heroRedo{
+    width: 759px;
+    height: 600px;
+    background: url("../images/topic_files/sec3_main.png") no-repeat;
+}
+#quality{
+    width: 759px;
+    height: 700px;
+    background: url("../images/topic_files/sec4_main.png") no-repeat;
+}
+#social{
+    width: 759px;
+    height: 600px;
+    background: url("../images/topic_files/sec5_main.png") no-repeat;
+}
+#click{
+    width: 560px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+#click p{
+    font-size: 30px;
+    color: #a38356;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#click .click_a{
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    background: url("../images/topic_files/sp.png");
+    background-position: 0 -163px;
+    position: absolute;
+}
+#click .prev{
+    top:150px;
+    right: 80px;
+}
+#click .next{
+    background-position:-30px -163px;
+    top:150px;
+    left:530px;
+}
+#foot{
+    width: 100%;
+    height: 117px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 19px;
+    color: #fff;
+    background: #1b1e22;
+    margin-top: 150px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#foot ul{
+    width: 720px;
+}
+#foot ul li{
+    list-style: none;
+    float: left;
+}

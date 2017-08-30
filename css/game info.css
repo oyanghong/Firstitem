@@ -1,0 +1,248 @@
+*{
+    margin:0px auto;
+    padding: 0px;
+    font-family:"微软雅黑";
+    box-sizing: border-box;
+}
+
+#home_content_topic{
+    height: 492px !important;
+}
+
+/* # G*/
+#G{
+    width: 100%;
+    background:linear-gradient( #DBDEE7,#ffffff );
+}
+
+#Game{
+	color: #464547;
+	font-size: 16px;
+	width: 1200px;
+	height: 200px;
+}
+#Game .Game_Shouye{
+	height: 20px;
+	line-height: 20px;
+	color: #464547;
+	font-size: 16px;
+	width: 100%;
+	margin-bottom: 40px;
+	padding-top: 40px;
+}
+#Game .Game_Shouye .i{
+	background: url(../images/game_files/sprite.png) no-repeat ;
+	background-position: 0 -4px;
+	width: 18px;
+	height: 18px;
+	margin-right: 9px;
+	text-indent: -9999px;
+	display: block;
+	float: left;
+}
+#Game .Game_Shouye a{
+	text-decoration:underline;
+	margin-right: 8px;
+	color: #363636;
+}
+#Game .Jubu{
+	margin-top: 50px;
+	padding-left: 25px;
+	font: bold 20px/22px '\5FAE\8F6F\96C5\9ED1';
+	background: url(../images/game_files/icon_hero.png) no-repeat;
+}
+
+#Game .Game_Jieshao{
+	margin-top: 20px;
+	height: 35px;
+	font-size: 16px;
+	border-bottom: 3px solid #D4D4D4;
+	border-radius: 0 0 3px 3px;
+}
+
+.Game_Jieshao .Game_Jieshao_Js a {
+	color: #3589DD;
+	font-weight: bold;
+}
+.Game_Jieshao li{
+	display: block;
+	list-style: none;
+	float: left;
+	width: 33%;
+	margin-bottom: -3px;
+	position: relative;
+	text-align: center;
+}
+
+.Game_Jieshao li a{
+	text-decoration: none;
+	color: #4B4B4B;
+}
+.Game_Jieshao li a:hover{
+	text-decoration: none;
+}
+.Game_Jieshao_Js li a{
+	display: block;
+	width: 100%;
+	line-height: 32px;
+	text-align: center;
+	color: #4B4B4B;
+}
+ .Game_Jieshao_Js a {
+	color: #3589DD;
+	font-weight: bold;
+}
+.Game_Jieshao_Js li a:hover {
+	text-decoration: none;
+}
+
+ .Game_box{
+     width: 1200px;
+	 margin-bottom: 50px;
+	 padding: 35px 28px;
+	 border: 2px solid #E8E8E8;
+	 border-top: 0;
+	 position: relative;
+}
+.Game_box_ZB{
+    display: block;
+	float: left;
+	width: 900px;
+	padding: 16px 0;
+	height: 20px;
+	line-height: 20px;
+}
+.Game_box_ZB li{
+	list-style: none;
+	float: left;
+	padding-left: 15px;
+	min-width: 90px;
+	font-size: 14px;
+}
+.Game_box_ZB li label{
+	display: block;
+	cursor: default;
+	width: 28px;
+	height:19px;
+	margin-top: -25px;
+	font-size: 14px;
+	color: #4B4B4B;
+}
+.Game_box_ZB .ZB-radio{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 7px;
+	border: 1px solid #B3B3B3;
+	border-radius: 50px;
+	position: relative;
+}
+.Game_box_ZB .ZB-radio .p{
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+}
+.Game_box_search{
+	float: left;
+	position: absolute;
+	right:28px;
+	top:-60px;
+	margin-top: 86px;
+	margin-right: 60px;
+	border: 1px solid #D2D2D2;
+	padding: 10px;
+	height: 40px;
+	width: 220px;
+}
+.Game_box_search .input{
+	float: left;
+	border: none;
+	width: 80%;
+	height: 22px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #747475;
+	background: none;
+	outline: none;
+}
+.Game_box_search  img{
+	display: block;
+	float: right;
+	padding-left: 10px;
+	width: 22px;
+	height: 22px;
+	border-left: 1px solid #D5D5D5;
+}
+.Game_box_search{
+	text-decoration: none;
+	color: #363636;
+}
+.Game_box_content{
+	width: 1190px;
+	margin-top: 70px;
+}
+.content-pic{
+	margin-right: -50px;
+	overflow: hidden;
+	list-style: none;
+}
+.content-pic li{
+	display: block;
+	float: left;
+	width: 87px;
+	margin-bottom: 34px;
+	margin-right: 30px;
+}
+.content-pic li a{
+	text-decoration: none;
+	color: #363636;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.content-pic li a img{
+	width: 83px;
+	height: 83px;
+	border: 2px solid #258DF2;
+	border-radius: 10px 0 10px 0;
+}
+.content_bottom{
+    width: 240px;
+    height:160px;
+    border: 1px solid blue;
+    background:#626a7a;
+    position: absolute;
+    top:124px;
+    left:100px;
+    display:none;
+    opacity: 0.8;
+}
+.content_bottom img{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.content_bottom span{
+    display: inline-block;
+    float: right;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+.content_bottom .tj{
+    color:green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content_bottom .jg{
+    color: yellow;
+    font-size: 14px;
+}
+.content_bottom .sx{
+    color: #258DF2;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
